@@ -1,0 +1,21 @@
+//Requisições
+POST http://localhost:8080/accounts
+Content-Type: application/Json
+{
+    "name": "Eder",
+    "document": "123"
+}
+
+GET http://localhost:8080/accounts
+Content-Type: application/Json
+
+PUT http://localhost:8080/accounts/123
+Content-Type: application/Json
+{
+    "name": "Eder G A Jr",
+    "document": "123456",
+    "balance": "100"
+}
+
+DELETE http://localhost:8080/accounts/123
+Content-Type: application/Json
